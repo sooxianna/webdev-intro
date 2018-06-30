@@ -1,3 +1,33 @@
 body {
-  background-color: honeydew;
+  background-color: #fff8dc;
+  text-align: center;
+  background-image: url("images/sun-pattern.png");
+  background-size:100px;
+  background-repeat: repeat;
+}
+
+h1{
+  font-size: 2.5em;
+  background-color: #ff7f50;
+}
+
+img { 
+    display: block;
+    image-align: center;
+    height: 200px;
+    border: 10px inset #1e90ff;
+    box-shadow: 5px 5px 10px 0px #191970;
+}
+
+div{
+    width:48%;
+  display; inline-block
+  vertical-align; top;
+}
+/* solid | dashed | dotted |
+inset */
+
+a;hover {
+    color: #ff6347;
+    transition: color 0.5s;
 }
